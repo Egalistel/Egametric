@@ -209,22 +209,22 @@ void loop() {
 }
 
 void printapi1Logo() { //Sablier temps
-  matrix.drawLine(0, 0, 7, 0, matrix.Color(0, 0, 255));
-  matrix.drawLine(0, 7, 7, 7, matrix.Color(0, 0, 255));
-  matrix.drawPixel(0, 1, matrix.Color(0, 0, 255));
-  matrix.drawPixel(3, 1, matrix.Color(0, 0, 255));
-  matrix.drawPixel(4, 1, matrix.Color(0, 0, 255));
-  matrix.drawPixel(7, 1, matrix.Color(0, 0, 255));
-  matrix.drawPixel (1, 2, matrix.Color(0, 0, 255));
-  matrix.drawPixel (6, 2, matrix.Color(0, 0, 255));
-  matrix.drawPixel (2, 3, matrix.Color(0, 0, 255));
-  matrix.drawPixel (5, 3, matrix.Color(0, 0, 255));
-  matrix.drawPixel (2, 4, matrix.Color(0, 0, 255));
-  matrix.drawPixel (5, 4, matrix.Color(0, 0, 255));
-  matrix.drawPixel (1, 5, matrix.Color(0, 0, 255));
-  matrix.drawPixel (6, 5, matrix.Color(0, 0, 255));
-  matrix.drawPixel (0, 6, matrix.Color(0, 0, 255));
-  matrix.drawPixel (7, 6, matrix.Color(0, 0, 255));
+  matrix.drawLine(0, 0, 7, 0, matrix.Color(58, 137, 35));
+  matrix.drawLine(0, 7, 7, 7, matrix.Color(58, 137, 35));
+  matrix.drawPixel(0, 1, matrix.Color(58, 137, 35));
+  matrix.drawPixel(3, 1, matrix.Color(58, 137, 35));
+  matrix.drawPixel(4, 1, matrix.Color(58, 137, 35));
+  matrix.drawPixel(7, 1, matrix.Color(58, 137, 35));
+  matrix.drawPixel (1, 2, matrix.Color(58, 137, 35));
+  matrix.drawPixel (6, 2, matrix.Color(58, 137, 35));
+  matrix.drawPixel (2, 3, matrix.Color(58, 137, 35));
+  matrix.drawPixel (5, 3, matrix.Color(58, 137, 35));
+  matrix.drawPixel (2, 4, matrix.Color(58, 137, 35));
+  matrix.drawPixel (5, 4, matrix.Color(58, 137, 35));
+  matrix.drawPixel (1, 5, matrix.Color(58, 137, 35));
+  matrix.drawPixel (6, 5, matrix.Color(58, 137, 35));
+  matrix.drawPixel (0, 6, matrix.Color(58, 137, 35));
+  matrix.drawPixel (7, 6, matrix.Color(58, 137, 35));
 }
 
 void printapi2Logo() { //Pourcentage 
@@ -285,23 +285,23 @@ void printapi3Logo() { //Sablier temps
 
 void printapi4Logo() { // Horloge
  
-  matrix.drawLine(2, 0, 5, 0, matrix.Color(58, 137, 35));
-  matrix.drawLine(2, 7, 5, 7, matrix.Color(58, 137, 35));
-  matrix.drawLine(3, 3, 7, 3, matrix.Color(58, 137, 35));
-  matrix.drawPixel(1, 1, matrix.Color(58, 137, 35));
-  matrix.drawPixel(6, 1, matrix.Color(58, 137, 35)); 
-  matrix.drawPixel(0, 2, matrix.Color(58, 137, 35));
-  matrix.drawPixel(0, 3, matrix.Color(58, 137, 35));
-  matrix.drawPixel(0, 4, matrix.Color(58, 137, 35));
-  matrix.drawPixel(0, 5, matrix.Color(58, 137, 35));
-  matrix.drawPixel(1, 6, matrix.Color(58, 137, 35));
-  matrix.drawPixel(3, 4, matrix.Color(58, 137, 35));
-  matrix.drawPixel(3, 5, matrix.Color(58, 137, 35));
-  matrix.drawPixel(3, 6, matrix.Color(58, 137, 35));
-  matrix.drawPixel(6, 6, matrix.Color(58, 137, 35));
-  matrix.drawPixel(7, 2, matrix.Color(58, 137, 35));
-  matrix.drawPixel(7, 4, matrix.Color(58, 137, 35));
-  matrix.drawPixel(7, 5, matrix.Color(58, 137, 35));
+  matrix.drawLine(2, 0, 5, 0, matrix.Color(255, 255, 255));
+  matrix.drawLine(2, 7, 5, 7, matrix.Color(255, 255, 255));
+  matrix.drawLine(3, 3, 7, 3, matrix.Color(255, 255, 255));
+  matrix.drawPixel(1, 1, matrix.Color(255, 255, 255));
+  matrix.drawPixel(6, 1, matrix.Color(255, 255, 255)); 
+  matrix.drawPixel(0, 2, matrix.Color(255, 255, 255));
+  matrix.drawPixel(0, 3, matrix.Color(255, 255, 255));
+  matrix.drawPixel(0, 4, matrix.Color(255, 255, 255));
+  matrix.drawPixel(0, 5, matrix.Color(255, 255, 255));
+  matrix.drawPixel(1, 6, matrix.Color(255, 255, 255));
+  matrix.drawPixel(3, 4, matrix.Color(255, 255, 255));
+  matrix.drawPixel(3, 5, matrix.Color(255, 255, 255));
+  matrix.drawPixel(3, 6, matrix.Color(255, 255, 255));
+  matrix.drawPixel(6, 6, matrix.Color(255, 255, 255));
+  matrix.drawPixel(7, 2, matrix.Color(255, 255, 255));
+  matrix.drawPixel(7, 4, matrix.Color(255, 255, 255));
+  matrix.drawPixel(7, 5, matrix.Color(255, 255, 255));
 }
 
 String A1counter() {
@@ -320,12 +320,12 @@ String A1counter() {
         
         if(estrunSeconds<=0){
           subs="--:--";
-          col=2;
+          col=1;
           stopRow = 50;
           
         }else{
         subs = estbuf;
-        col=2;
+        col=1;
         stopRow = 6;
         }
         return subs;
