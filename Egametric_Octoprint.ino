@@ -89,11 +89,11 @@ NEO_GRB            + NEO_KHZ800);
 
 
 //------------ Configuration Octoprint-------------------//  
-IPAddress ip(192, 168, 1, 19);                         // Adresse Ip de votre serveur Octoprint Local
+IPAddress ip(192, 168, 1, x);                         // Adresse Ip de votre serveur Octoprint Local
 // char* octoprint_host = "octoprint.example.com";  // Ou adresse de votre serveur pour connection externe
 
 const int octoprint_httpPort = 80;  //Port du serveur , 80 par defaut en Local
-String octoprint_apikey = "C87BAF832D2D447599987CCB6020479C"; //Clef de votre API , dispo sur octoprint dans setting - features - API
+String octoprint_apikey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"; //Clef de votre API , dispo sur octoprint dans setting - features - API
 
 OctoprintApi api(client, ip, octoprint_httpPort, octoprint_apikey);               //Si vous utilisez une adresse ip
 // OctoprintApi api(client, octoprint_host, octoprint_httpPort, octoprint_apikey);//Ou si vous utilisez une adresse externe
@@ -117,7 +117,7 @@ const uint16_t colors[] = {  // les couleurs de texte en RGB
 };
 
 int x    = 0;
-String subs = "U30";
+String subs = "U30  ";
 String heure= "";
 int channel = 0;
 const int api1 = 0;
